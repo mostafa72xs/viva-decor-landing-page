@@ -84,7 +84,7 @@ header{
     position: absolute;
 }
 main{
-    overflow-y: hidden;
+    overflow-y: hidden !important;
 }
 .img1{
     margin-top: -770px;
@@ -345,6 +345,9 @@ li{
         margin-left: 50px;
         margin-top: -0px;
         height: 50px;
+    }
+    main{
+        max-width:100% !important;
     }
     input{
         width: 100%;
