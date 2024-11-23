@@ -346,8 +346,8 @@ li{
         margin-top: -0px;
         height: 50px;
     }
-    main{
-        max-width:100% !important;
+    body{
+        overflow-y: hidden !important;
     }
     input{
         width: 100%;
